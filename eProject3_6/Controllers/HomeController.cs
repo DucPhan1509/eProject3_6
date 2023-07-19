@@ -30,6 +30,29 @@ namespace eProject3_6.Controllers
         {
             return View();
         }
+
+        public IActionResult Support() 
+        {
+            return View();
+        }
+        public IActionResult rechargeplant() 
+        {
+            return View();
+        }
+
+        public IActionResult UserAccount() 
+        {
+            return View();
+        }
+        public IActionResult youroder() 
+        {
+            return View();
+        }
+
+        public IActionResult payment() 
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();
