@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Content\**" />
+    <Compile Remove="wwwroot\NewFolder1\**" />
+    <Compile Remove="wwwroot\NewFolder\**" />
+    <Content Remove="Content\**" />
+    <Content Remove="wwwroot\NewFolder1\**" />
+    <Content Remove="wwwroot\NewFolder\**" />
+    <EmbeddedResource Remove="Content\**" />
+    <EmbeddedResource Remove="wwwroot\NewFolder1\**" />
+    <EmbeddedResource Remove="wwwroot\NewFolder\**" />
+    <None Remove="Content\**" />
+    <None Remove="wwwroot\NewFolder1\**" />
+    <None Remove="wwwroot\NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\Content\contact-us.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Content\js\theme.js" />
+    <None Include="wwwroot\Content\vendor\bootstrap-spinner\bootstrap-spinner.js" />
+    <None Include="wwwroot\Content\vendor\bootstrap\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\Content\vendor\daterangepicker\daterangepicker.js" />
+    <None Include="wwwroot\Content\vendor\daterangepicker\moment.min.js" />
+    <None Include="wwwroot\Content\vendor\easy-responsive-tabs\easy-responsive-tabs.js" />
+    <None Include="wwwroot\Content\vendor\font-awesome\webfonts\fa-brands-400.svg" />
+    <None Include="wwwroot\Content\vendor\font-awesome\webfonts\fa-regular-400.svg" />
+    <None Include="wwwroot\Content\vendor\font-awesome\webfonts\fa-solid-900.svg" />
+    <None Include="wwwroot\Content\vendor\jquery-seat-charts\jquery.seat-charts.min.js" />
+    <None Include="wwwroot\Content\vendor\jquery-ui\jquery-ui.min.js" />
+    <None Include="wwwroot\Content\vendor\jquery\jquery.min.js" />
+    <None Include="wwwroot\Content\vendor\owl.carousel\owl.carousel.min.js" />
+  </ItemGroup>
+
+</Project>
