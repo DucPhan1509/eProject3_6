@@ -5,6 +5,314 @@
       "PackagePath": "staticwebassets\\eProject3_6.bundle.scp.css"
     },
     {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\default.css",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\default.css"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\font-awesome\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\font-awesome\\css\\font-awesome.css"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\font-awesome\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\font-awesome\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\font-awesome\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\font-awesome\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\font-awesome\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\font-awesome\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\fontello\\css\\animation.css",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\fontello\\css\\animation.css"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\fontello\\css\\fontello-codes.css",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\fontello\\css\\fontello-codes.css"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\fontello\\css\\fontello-embedded.css",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\fontello\\css\\fontello-embedded.css"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\fontello\\css\\fontello-ie7-codes.css",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\fontello\\css\\fontello-ie7-codes.css"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\fontello\\css\\fontello-ie7.css",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\fontello\\css\\fontello-ie7.css"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\fontello\\css\\fontello.css",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\fontello\\css\\fontello.css"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\fontello\\font\\fontello.svg",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\fontello\\font\\fontello.svg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\fontello\\font\\fontello.ttf",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\fontello\\font\\fontello.ttf"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\fonts.css",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\fonts.css"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\fonts\\librebaskerville\\librebaskerville-bold-webfont.svg",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\fonts\\librebaskerville\\librebaskerville-bold-webfont.svg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\fonts\\librebaskerville\\librebaskerville-bold-webfont.ttf",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\fonts\\librebaskerville\\librebaskerville-bold-webfont.ttf"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\fonts\\librebaskerville\\librebaskerville-italic-webfont.svg",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\fonts\\librebaskerville\\librebaskerville-italic-webfont.svg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\fonts\\librebaskerville\\librebaskerville-italic-webfont.ttf",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\fonts\\librebaskerville\\librebaskerville-italic-webfont.ttf"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\fonts\\librebaskerville\\librebaskerville-regular-webfont.svg",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\fonts\\librebaskerville\\librebaskerville-regular-webfont.svg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\fonts\\librebaskerville\\librebaskerville-regular-webfont.ttf",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\fonts\\librebaskerville\\librebaskerville-regular-webfont.ttf"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\fonts\\opensans\\OpenSans-Bold-webfont.svg",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\fonts\\opensans\\OpenSans-Bold-webfont.svg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\fonts\\opensans\\OpenSans-Bold-webfont.ttf",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\fonts\\opensans\\OpenSans-Bold-webfont.ttf"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\fonts\\opensans\\OpenSans-BoldItalic-webfont.svg",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\fonts\\opensans\\OpenSans-BoldItalic-webfont.svg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\fonts\\opensans\\OpenSans-BoldItalic-webfont.ttf",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\fonts\\opensans\\OpenSans-BoldItalic-webfont.ttf"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\fonts\\opensans\\OpenSans-ExtraBold-webfont.svg",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\fonts\\opensans\\OpenSans-ExtraBold-webfont.svg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\fonts\\opensans\\OpenSans-ExtraBold-webfont.ttf",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\fonts\\opensans\\OpenSans-ExtraBold-webfont.ttf"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\fonts\\opensans\\OpenSans-ExtraBoldItalic-webfont.svg",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\fonts\\opensans\\OpenSans-ExtraBoldItalic-webfont.svg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\fonts\\opensans\\OpenSans-ExtraBoldItalic-webfont.ttf",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\fonts\\opensans\\OpenSans-ExtraBoldItalic-webfont.ttf"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\fonts\\opensans\\OpenSans-Italic-webfont.svg",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\fonts\\opensans\\OpenSans-Italic-webfont.svg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\fonts\\opensans\\OpenSans-Italic-webfont.ttf",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\fonts\\opensans\\OpenSans-Italic-webfont.ttf"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\fonts\\opensans\\OpenSans-Light-webfont.svg",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\fonts\\opensans\\OpenSans-Light-webfont.svg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\fonts\\opensans\\OpenSans-Light-webfont.ttf",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\fonts\\opensans\\OpenSans-Light-webfont.ttf"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\fonts\\opensans\\OpenSans-LightItalic-webfont.svg",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\fonts\\opensans\\OpenSans-LightItalic-webfont.svg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\fonts\\opensans\\OpenSans-LightItalic-webfont.ttf",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\fonts\\opensans\\OpenSans-LightItalic-webfont.ttf"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\fonts\\opensans\\OpenSans-Regular-webfont.svg",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\fonts\\opensans\\OpenSans-Regular-webfont.svg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\fonts\\opensans\\OpenSans-Regular-webfont.ttf",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\fonts\\opensans\\OpenSans-Regular-webfont.ttf"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\fonts\\opensans\\OpenSans-Semibold-webfont.svg",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\fonts\\opensans\\OpenSans-Semibold-webfont.svg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\fonts\\opensans\\OpenSans-Semibold-webfont.ttf",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\fonts\\opensans\\OpenSans-Semibold-webfont.ttf"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\fonts\\opensans\\OpenSans-SemiboldItalic-webfont.svg",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\fonts\\opensans\\OpenSans-SemiboldItalic-webfont.svg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\fonts\\opensans\\OpenSans-SemiboldItalic-webfont.ttf",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\fonts\\opensans\\OpenSans-SemiboldItalic-webfont.ttf"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\layout.css",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\layout.css"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\css\\media-queries.css",
+      "PackagePath": "staticwebassets\\ContactForm\\css\\media-queries.css"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\favicon.png",
+      "PackagePath": "staticwebassets\\ContactForm\\favicon.png"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\images\\header-background.jpg",
+      "PackagePath": "staticwebassets\\ContactForm\\images\\header-background.jpg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\images\\loader.gif",
+      "PackagePath": "staticwebassets\\ContactForm\\images\\loader.gif"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\images\\overlay-bg.png",
+      "PackagePath": "staticwebassets\\ContactForm\\images\\overlay-bg.png"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\images\\overlay-zoom.png",
+      "PackagePath": "staticwebassets\\ContactForm\\images\\overlay-zoom.png"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\images\\portfolio\\coffee.jpg",
+      "PackagePath": "staticwebassets\\ContactForm\\images\\portfolio\\coffee.jpg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\images\\portfolio\\console.jpg",
+      "PackagePath": "staticwebassets\\ContactForm\\images\\portfolio\\console.jpg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\images\\portfolio\\farmerboy.jpg",
+      "PackagePath": "staticwebassets\\ContactForm\\images\\portfolio\\farmerboy.jpg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\images\\portfolio\\girl.jpg",
+      "PackagePath": "staticwebassets\\ContactForm\\images\\portfolio\\girl.jpg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\images\\portfolio\\into-the-light.jpg",
+      "PackagePath": "staticwebassets\\ContactForm\\images\\portfolio\\into-the-light.jpg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\images\\portfolio\\judah.jpg",
+      "PackagePath": "staticwebassets\\ContactForm\\images\\portfolio\\judah.jpg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\images\\portfolio\\modals\\m-coffee.jpg",
+      "PackagePath": "staticwebassets\\ContactForm\\images\\portfolio\\modals\\m-coffee.jpg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\images\\portfolio\\modals\\m-console.jpg",
+      "PackagePath": "staticwebassets\\ContactForm\\images\\portfolio\\modals\\m-console.jpg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\images\\portfolio\\modals\\m-farmerboy.jpg",
+      "PackagePath": "staticwebassets\\ContactForm\\images\\portfolio\\modals\\m-farmerboy.jpg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\images\\portfolio\\modals\\m-girl.jpg",
+      "PackagePath": "staticwebassets\\ContactForm\\images\\portfolio\\modals\\m-girl.jpg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\images\\portfolio\\modals\\m-intothelight.jpg",
+      "PackagePath": "staticwebassets\\ContactForm\\images\\portfolio\\modals\\m-intothelight.jpg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\images\\portfolio\\modals\\m-judah.jpg",
+      "PackagePath": "staticwebassets\\ContactForm\\images\\portfolio\\modals\\m-judah.jpg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\images\\portfolio\\modals\\m-origami.jpg",
+      "PackagePath": "staticwebassets\\ContactForm\\images\\portfolio\\modals\\m-origami.jpg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\images\\portfolio\\modals\\m-retrocam.jpg",
+      "PackagePath": "staticwebassets\\ContactForm\\images\\portfolio\\modals\\m-retrocam.jpg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\images\\portfolio\\origami.jpg",
+      "PackagePath": "staticwebassets\\ContactForm\\images\\portfolio\\origami.jpg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\images\\portfolio\\retrocam.jpg",
+      "PackagePath": "staticwebassets\\ContactForm\\images\\portfolio\\retrocam.jpg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\images\\profilepic.jpg",
+      "PackagePath": "staticwebassets\\ContactForm\\images\\profilepic.jpg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\images\\sample-image.jpg",
+      "PackagePath": "staticwebassets\\ContactForm\\images\\sample-image.jpg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\images\\testimonials-bg.jpg",
+      "PackagePath": "staticwebassets\\ContactForm\\images\\testimonials-bg.jpg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\js\\init.js",
+      "PackagePath": "staticwebassets\\ContactForm\\js\\init.js"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\js\\jquery-1.10.2.min.js",
+      "PackagePath": "staticwebassets\\ContactForm\\js\\jquery-1.10.2.min.js"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\js\\jquery-migrate-1.2.1.min.js",
+      "PackagePath": "staticwebassets\\ContactForm\\js\\jquery-migrate-1.2.1.min.js"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\js\\jquery.fittext.js",
+      "PackagePath": "staticwebassets\\ContactForm\\js\\jquery.fittext.js"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\js\\jquery.flexslider.js",
+      "PackagePath": "staticwebassets\\ContactForm\\js\\jquery.flexslider.js"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\js\\magnific-popup.js",
+      "PackagePath": "staticwebassets\\ContactForm\\js\\magnific-popup.js"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\js\\modernizr.js",
+      "PackagePath": "staticwebassets\\ContactForm\\js\\modernizr.js"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\js\\waypoints.js",
+      "PackagePath": "staticwebassets\\ContactForm\\js\\waypoints.js"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\ContactForm\\preview.jpg",
+      "PackagePath": "staticwebassets\\ContactForm\\preview.jpg"
+    },
+    {
       "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\Content\\css\\stylesheet.css",
       "PackagePath": "staticwebassets\\Content\\css\\stylesheet.css"
     },

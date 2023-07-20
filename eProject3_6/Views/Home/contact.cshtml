@@ -1,11 +1,20 @@
-﻿@*
+﻿@model eProject3_6.ViewModel.Contact;
+
+
+@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
 }
 <!-- Page Header
 ============================================= -->
-
+<link rel="stylesheet" href="~/ContactForm/css/default.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/ContactForm/css/layout.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/ContactForm/css/media-queries.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/ContactForm/css/magnific-popup.css" asp-append-version="true" />
+<!-- Script
+================================================== -->
+<script src="~/ContactForm/js/modernizr.js"></script>
 
 <div class="page-header page-header-text-light bg-secondary">
     <div class="container">
@@ -22,38 +31,88 @@
         </div>
     </div>
 </div>
-<div id="contact">
-    <div class="row">
-        <div class="col-md-6">
-            <div class="bg-light shadow-md rounded h-100 p-3">
-                <iframe class="h-100 w-100" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3151.840107317064!2d144.955925!3d-37.817214!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sin!4v1530885071349" allowfullscreen></iframe>
-            </div>
+<section id="contact">
+    <div class="row section-head">
+        <div class="two columns header-col">
+            <h1><span>Get In Touch.</span></h1>
         </div>
-        <div class="col-md-6 mt-4 mt-md-0">
-            <div class="bg-light shadow-md rounded p-4">
-                <h2 class="text-6">Get in touch</h2>
-                <p class="text-3">For Customer Support and Query, Get in touch with us: <a href="#">Help</a></p>
-                <div class="featured-box style-1">
-                    <div class="featured-box-icon text-primary"> <i class="fas fa-map-marker-alt"></i></div>
-                    <h3>Quickai Inc.</h3>
-                    <p>
-                        4th Floor, Plot No.22, Above Public Park<br>
-                        145 Murphy Canyon Rd.<br>
-                        Suite 100-18<br>
-                        San Diego CA 2028
-                    </p>
-                </div>
-                <div class="featured-box style-1">
-                    <div class="featured-box-icon text-primary"> <i class="fas fa-phone"></i> </div>
-                    <h3>Telephone</h3>
-                    <p>(+060) 9898980098, (+060) 8898880088</p>
-                </div>
-                <div class="featured-box style-1">
-                    <div class="featured-box-icon text-primary"> <i class="fas fa-envelope"></i> </div>
-                    <h3>Business Inquiries</h3>
-                    <p><a href="https://apipagos.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="a5cccbc3cae5d4d0ccc6cec4cc8bc6cac8">[email&#160;protected]</a></p>
-                </div>
-            </div>
+        <div class="ten columns">
+            <p class="lead">
+                You can contact us right here so we can help you quickly. We wish you have a best service.
+            </p>
         </div>
     </div>
-</div>
+    <div class="row">
+        <div class="eight columns">
+            <!-- form -->
+            <form  method="post" >
+                <fieldset>
+                    <div>
+                        <label asp-for="Email">Email <span class="required">*</span></label>
+                        <input  asp-for="Email" type="text" value="" size="35" id="contactEmail" name="contactEmail">
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <div>
+                        <label asp-for="Subject">Subject</label>
+                        <input  asp-for="Subject" type="text" value="" size="35" id="contactSubject" name="contactSubject">
+                        <span asp-validation-for="Subject" class="text-danger"></span>
+                    </div>
+                    <div>
+                        <label asp-for="Message">Message <span class="required">*</span></label>
+                        <textarea  asp-for="Message" cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                        <span asp-validation-for="Message" class="text-danger"></span>
+                    </div>
+                    <div>
+                        <button class="submit">Submit</button>                        
+                        <span id="image-loader">
+                            <img alt="" src="~/ContactForm/images/loader.gif">
+                        </span>
+                    </div>
+                </fieldset>
+            </form> <!-- Form End -->
+        </div>
+        <aside class="four columns footer-widgets">
+            <div class="widget widget_contact">
+                <h4>Address and Phone</h4>
+                <p class="address">
+                    P.M.D4c<br>
+                    16, Sun street,Saturn, <br>
+                    - 606 601, TN.<br>
+                    <span>+03123456789 </span>
+                </p>
+            </div>
+            <div class="widget widget_tweets">
+                <h4 class="widget-title">Latest FeedBack </h4>
+                <ul id="twitter">
+                    <li>
+                        <span>
+
+                        </span>
+                        <b><a href="#">2 Days Ago</a></b>
+                    </li>
+                    <li>
+                        <span>
+                        </span>
+                        <b><a href="#">3 Days Ago</a></b>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+</section> <!-- Contact Section End-->
+@if (@ViewBag.ConfirmMsg != null)
+{
+    <script type="text/javascript">
+        window.onload = function () {
+            alert.("@ViewBag.ConfirmMsg");
+        };
+    </script>
+}
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="~/Content/js/jquery-1.10.2.min.js"><\/script>')</script>
+    <script type="text/javascript" src="~/ContactForm/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="~/ContactForm/js/jquery.flexslider.js" asp-append-version="true"></script>
+    <script src="~/ContactForm/js/waypoints.js" asp-append-version="true"></script>
+    <script src="~/ContactForm/js/jquery.fittext.js" asp-append-version="true"></script>
+    <script src="~/ContactForm/js/magnific-popup.js" asp-append-version="true"></script>
+    <script src="~/ContactForm/js/init.js" asp-append-version="true"></script>

@@ -1,8 +1,11 @@
+using eProject3_6.Models;
+using Microsoft.AspNetCore.Identity.UI.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddTransient<IEmailSender, SendMail>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

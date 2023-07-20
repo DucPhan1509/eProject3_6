@@ -1,32 +1,48 @@
-﻿using eProject3_6.Models;
+﻿using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using eProject3_6.Models;
+using eProject3_6.ViewModel;
 
 namespace eProject3_6.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
+
 
         public IActionResult Index()
         {
             return View();
         }
+        // contact 
+        private readonly IEmailSender _emailSender;
 
-        public IActionResult contact() 
+        public HomeController(IEmailSender emailSender)
+        {
+            _emailSender = emailSender;
+        }
+
+        [HttpGet]
+        public IActionResult Contact() 
         { 
             return View();
         }
-        public IActionResult loginandsignup() 
+        [HttpPost]
+        public async Task<IActionResult> Contact(Contact contact)
+        {
+            var msg = contact.Subject + "" + contact.Message;
+            await _emailSender.SendEmailAsync(contact.Email, "Contact Message", msg);
+            ViewBag.Message = "Thank for your contact";
+            return View();
+        }
+
+        //
+        public IActionResult Loginandsignup() 
         {
             return View();
         }
-        public IActionResult aboutus() 
+        public IActionResult Aboutus() 
         {
             return View();
         }
@@ -35,7 +51,7 @@ namespace eProject3_6.Controllers
         {
             return View();
         }
-        public IActionResult rechargeplant() 
+        public IActionResult Rechargeplant() 
         {
             return View();
         }
@@ -44,12 +60,12 @@ namespace eProject3_6.Controllers
         {
             return View();
         }
-        public IActionResult youroder() 
+        public IActionResult Youroder() 
         {
             return View();
         }
 
-        public IActionResult payment() 
+        public IActionResult Payment() 
         {
             return View();
         }
