@@ -1,4 +1,5 @@
-﻿@model eProject3_6.ViewModel.Contact;
+﻿@model eProject3_6.Models.SendMail;
+@addTagHelper*, Microsoft.AspNetCore.Mvc.TagHelpers
 
 
 @*
@@ -45,31 +46,32 @@
     <div class="row">
         <div class="eight columns">
             <!-- form -->
-            <form  method="post" >
+            <form  method="post" asp-controller="Home" asp-action="contact" enctype ="multipart/form-data">
                 <fieldset>
                     <div>
                         <label asp-for="Email">Email <span class="required">*</span></label>
-                        <input  asp-for="Email" type="text" value="" size="35" id="contactEmail" name="contactEmail">
+                        <input type = "text"size="35" name = "Email" required>
                         <span asp-validation-for="Email" class="text-danger"></span>
                     </div>
                     <div>
                         <label asp-for="Subject">Subject</label>
-                        <input  asp-for="Subject" type="text" value="" size="35" id="contactSubject" name="contactSubject">
+                        <input type="text" size="35" name = "Subject" required>
                         <span asp-validation-for="Subject" class="text-danger"></span>
                     </div>
                     <div>
                         <label asp-for="Message">Message <span class="required">*</span></label>
-                        <textarea  asp-for="Message" cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                        <textarea cols="50" rows="15" name="Message" required></textarea>
                         <span asp-validation-for="Message" class="text-danger"></span>
                     </div>
                     <div>
-                        <button class="submit">Submit</button>                        
+                        <button value="Send"/>
                         <span id="image-loader">
                             <img alt="" src="~/ContactForm/images/loader.gif">
                         </span>
                     </div>
                 </fieldset>
             </form> <!-- Form End -->
+        
         </div>
         <aside class="four columns footer-widgets">
             <div class="widget widget_contact">

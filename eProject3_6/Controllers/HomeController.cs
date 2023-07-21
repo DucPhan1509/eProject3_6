@@ -1,8 +1,15 @@
-﻿using Microsoft.AspNetCore.Identity.UI.Services;
+﻿using eProject3_6.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
-using eProject3_6.Models;
-using eProject3_6.ViewModel;
+
+using System.IO;
+using System.Net;
+using System.Net.Mail;
+using Microsoft.Extensions.Configuration;
+
 
 namespace eProject3_6.Controllers
 {
@@ -11,12 +18,12 @@ namespace eProject3_6.Controllers
 
 
 
-        public IActionResult Index()
+        public ActionResult Index()
         {
             return View();
         }
         // contact 
-        private readonly IEmailSender _emailSender;
+        /*private readonly IEmailSender _emailSender;
 
         public HomeController(IEmailSender emailSender)
         {
@@ -36,48 +43,88 @@ namespace eProject3_6.Controllers
             ViewBag.Message = "Thank for your contact";
             return View();
         }
+*/
+        private IConfiguration Configuration;
+        public HomeController(IConfiguration _configuration)
+        {
+            Configuration = _configuration;
+        }
 
+        // GET: Home
+        public IActionResult contact()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult contact(SendMail model)
+        {
+            //Read SMTP settings from AppSettings.json.
+            string host = this.Configuration.GetValue<string>("Smtp:smtp.gmail.com");
+            int port = this.Configuration.GetValue<int>("Smtp:587");
+            string fromAddress = this.Configuration.GetValue<string>("Smtp:FromAddress");
+            string userName = this.Configuration.GetValue<string>("Smtp:phanminhduc159@gmail.com");
+            string password = this.Configuration.GetValue<string>("Smtp:yrseqepzdlzmljvf");
+
+            using (MailMessage mm = new MailMessage(fromAddress, "phanminhduc159@gmail.com"))
+            {
+                mm.Subject = model.Subject;
+                mm.Body = "Email: " + model.Email + "<br />" + model.Message;
+                mm.IsBodyHtml = true;
+
+
+                using (SmtpClient smtp = new SmtpClient())
+                {
+                    smtp.Host = "smtp.gmail.com";
+                    smtp.EnableSsl = true;
+                    NetworkCredential NetworkCred = new NetworkCredential("phanminhduc159@gmail.com", "yrseqepzdlzmljvf");
+                    smtp.UseDefaultCredentials = false;
+                    smtp.Credentials = NetworkCred;
+                    smtp.Port = 587; ;
+                    smtp.Send(mm);
+                    ViewBag.Message = "Email sent sucessfully.";
+                }
+            }
+
+            return View();
+        }
         //
-        public IActionResult Loginandsignup() 
+        public ActionResult Loginandsignup() 
         {
             return View();
         }
-        public IActionResult Aboutus() 
-        {
-            return View();
-        }
-
-        public IActionResult Support() 
-        {
-            return View();
-        }
-        public IActionResult Rechargeplant() 
+        public ActionResult Aboutus() 
         {
             return View();
         }
 
-        public IActionResult UserAccount() 
+        public ActionResult Support() 
         {
             return View();
         }
-        public IActionResult Youroder() 
-        {
-            return View();
-        }
-
-        public IActionResult Payment() 
-        {
-            return View();
-        }
-        public IActionResult Privacy()
+        public ActionResult Rechargeplant() 
         {
             return View();
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        public ActionResult UserAccount() 
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View();
         }
+        public ActionResult Youroder() 
+        {
+            return View();
+        }
+
+        public ActionResult Payment() 
+        {
+            return View();
+        }
+        public ActionResult Privacy()
+        {
+            return View();
+        }
+
+
     }
 }
