@@ -82,7 +82,7 @@ namespace eProject3_6.Controllers
                     smtp.Credentials = NetworkCred;
                     smtp.Port = 587; ;
                     smtp.Send(mm);
-                    ViewBag.Message = "Email sent sucessfully.";
+                    ViewBag.msg = "Email sent sucessfully.";
                 }
             }
 

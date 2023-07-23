@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TXHwd88BlUoxYsf26rew3LfNTi/ehAUjOHtTYTsYixw=",
+  "Hash": "rU5rPVxU9M+AxSQxQi848nV9DMNFd3vCr5ODNcSkgv0=",
   "Source": "eProject3_6",
   "BasePath": "_content/eProject3_6",
   "Mode": "Default",
@@ -4029,12 +4029,12 @@
       "OriginalItemSpec": "wwwroot\\Content\\images\\team\\leader.jpg"
     },
     {
-      "Identity": "D:\\eProject3_6\\eProject3_6\\wwwroot\\Content\\images\\team\\leader-2.jpg",
+      "Identity": "D:\\eProject3_6\\eProject3_6\\wwwroot\\Content\\images\\team\\leader2.jpg",
       "SourceId": "eProject3_6",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\eProject3_6\\eProject3_6\\wwwroot\\",
       "BasePath": "_content/eProject3_6",
-      "RelativePath": "Content/images/team/leader-2.jpg",
+      "RelativePath": "Content/images/team/leader2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -4043,15 +4043,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Content\\images\\team\\leader-2.jpg"
+      "OriginalItemSpec": "wwwroot\\Content\\images\\team\\leader2.jpg"
     },
     {
-      "Identity": "D:\\eProject3_6\\eProject3_6\\wwwroot\\Content\\images\\team\\leader-3.jpg",
+      "Identity": "D:\\eProject3_6\\eProject3_6\\wwwroot\\Content\\images\\team\\leader3.jpg",
       "SourceId": "eProject3_6",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\eProject3_6\\eProject3_6\\wwwroot\\",
       "BasePath": "_content/eProject3_6",
-      "RelativePath": "Content/images/team/leader-3.jpg",
+      "RelativePath": "Content/images/team/leader3.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -4060,15 +4060,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Content\\images\\team\\leader-3.jpg"
+      "OriginalItemSpec": "wwwroot\\Content\\images\\team\\leader3.jpg"
     },
     {
-      "Identity": "D:\\eProject3_6\\eProject3_6\\wwwroot\\Content\\images\\team\\leader-4.jpg",
+      "Identity": "D:\\eProject3_6\\eProject3_6\\wwwroot\\Content\\images\\team\\leader4.jpg",
       "SourceId": "eProject3_6",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\eProject3_6\\eProject3_6\\wwwroot\\",
       "BasePath": "_content/eProject3_6",
-      "RelativePath": "Content/images/team/leader-4.jpg",
+      "RelativePath": "Content/images/team/leader4.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -4077,7 +4077,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Content\\images\\team\\leader-4.jpg"
+      "OriginalItemSpec": "wwwroot\\Content\\images\\team\\leader4.jpg"
     },
     {
       "Identity": "D:\\eProject3_6\\eProject3_6\\wwwroot\\Content\\js\\theme.js",

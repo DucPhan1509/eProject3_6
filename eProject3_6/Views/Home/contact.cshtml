@@ -50,7 +50,7 @@
                 <fieldset>
                     <div>
                         <label asp-for="Email">Email <span class="required">*</span></label>
-                        <input type = "text"size="35" name = "Email" required>
+                        <input type = "email" size="35" name = "Email" required placeholder="Put your email here so We can reply you">
                         <span asp-validation-for="Email" class="text-danger"></span>
                     </div>
                     <div>
@@ -64,14 +64,17 @@
                         <span asp-validation-for="Message" class="text-danger"></span>
                     </div>
                     <div>
-                        <button value="Send"/>
+                        <button class="submit" value="Send">Send</button>
                         <span id="image-loader">
                             <img alt="" src="~/ContactForm/images/loader.gif">
                         </span>
                     </div>
                 </fieldset>
             </form> <!-- Form End -->
-        
+            @if (!string.IsNullOrEmpty(ViewBag.msg))
+            {
+                <script type="text/javascript">alert('@ViewBag.msg');</script>
+            }
         </div>
         <aside class="four columns footer-widgets">
             <div class="widget widget_contact">
@@ -83,7 +86,8 @@
                     <span>+03123456789 </span>
                 </p>
             </div>
-            <div class="widget widget_tweets">
+@*            //feedback but don't use
+*@@*            <div class="widget widget_tweets">
                 <h4 class="widget-title">Latest FeedBack </h4>
                 <ul id="twitter">
                     <li>
@@ -99,17 +103,10 @@
                     </li>
                 </ul>
             </div>
-        </aside>
+*@        </aside>
     </div>
 </section> <!-- Contact Section End-->
-@if (@ViewBag.ConfirmMsg != null)
-{
-    <script type="text/javascript">
-        window.onload = function () {
-            alert.("@ViewBag.ConfirmMsg");
-        };
-    </script>
-}
+
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="~/Content/js/jquery-1.10.2.min.js"><\/script>')</script>
     <script type="text/javascript" src="~/ContactForm/js/jquery-migrate-1.2.1.min.js"></script>

@@ -697,20 +697,20 @@
       "PackagePath": "staticwebassets\\Content\\images\\slider\\small-banner-9.jpg"
     },
     {
-      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\Content\\images\\team\\leader-2.jpg",
-      "PackagePath": "staticwebassets\\Content\\images\\team\\leader-2.jpg"
-    },
-    {
-      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\Content\\images\\team\\leader-3.jpg",
-      "PackagePath": "staticwebassets\\Content\\images\\team\\leader-3.jpg"
-    },
-    {
-      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\Content\\images\\team\\leader-4.jpg",
-      "PackagePath": "staticwebassets\\Content\\images\\team\\leader-4.jpg"
-    },
-    {
       "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\Content\\images\\team\\leader.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\team\\leader.jpg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\Content\\images\\team\\leader2.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\team\\leader2.jpg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\Content\\images\\team\\leader3.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\team\\leader3.jpg"
+    },
+    {
+      "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\Content\\images\\team\\leader4.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\team\\leader4.jpg"
     },
     {
       "Id": "D:\\eProject3_6\\eProject3_6\\wwwroot\\Content\\js\\theme.js",
